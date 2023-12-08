@@ -1,7 +1,5 @@
 # MOVLIST: MOVIE WATCHLIST
 
-## What is Movlist?
-
 Movlist adalah sebuah website yang dirancang untuk membantu pengguna dalam mendata dan mengelola daftar film favorit mereka. Website ini menyediakan fitur yang memudahkan pengguna untuk melihat, menambah, mengubah, dan menghapus film dari watchlist mereka. Berikut adalah penjelasan singkat tentang fitur-fitur utama Movlist:
 
 Daftar Film: Pengguna dapat melihat daftar film favorit mereka yang telah mereka tambahkan ke dalam watchlist. Setiap entri pada daftar ini memberikan informasi singkat tentang judul, gambar sampul, dan detail lainnya.
