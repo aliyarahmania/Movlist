@@ -1,63 +1,13 @@
-# CodeIgniter 4 Application Starter
+# MOVLIST: MOVIE WATCHLIST
 
-## What is CodeIgniter?
+## What is Movlist?
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](http://codeigniter.com).
+Movlist adalah sebuah website yang dirancang untuk membantu pengguna dalam mendata dan mengelola daftar film favorit mereka. Website ini menyediakan fitur yang memudahkan pengguna untuk melihat, menambah, mengubah, dan menghapus film dari watchlist mereka. Berikut adalah penjelasan singkat tentang fitur-fitur utama Movlist:
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+Daftar Film: Pengguna dapat melihat daftar film favorit mereka yang telah mereka tambahkan ke dalam watchlist. Setiap entri pada daftar ini memberikan informasi singkat tentang judul, gambar sampul, dan detail lainnya.
 
-More information about the plans for version 4 can be found in [the announcement](http://forum.codeigniter.com/thread-62615.html) on the forums.
+Menambah Film: Pengguna memiliki kemampuan untuk menambahkan film baru ke dalam watchlist mereka. Untuk melakukan ini, mereka cukup mengakses formulir tambah film, di mana mereka dapat memasukkan informasi seperti judul film, direktur, tahun rilis, genre, dan gambar sampul.
 
-The user guide corresponding to this version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
+Mengubah Informasi Film: Movlist memungkinkan pengguna untuk memperbarui informasi film yang sudah ada dalam watchlist mereka. Mereka dapat mengubah judul, direktur, tahun rilis, genre, atau bahkan mengganti gambar sampul film.
 
-## Installation & updates
-
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
-
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
-
-## Setup
-
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
-
-## Important Change with index.php
-
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
-
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
-
-**Please** read the user guide for a better explanation of how CI4 works!
-
-## Repository Management
-
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Server Requirements
-
-PHP version 7.4 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
-- xml (enabled by default - don't turn it off)
+Menghapus Film: Apabila pengguna tidak lagi ingin menyimpan suatu film dalam watchlist mereka, mereka dapat dengan mudah menghapusnya. Fitur ini memberikan fleksibilitas kepada pengguna untuk selalu memiliki daftar film yang paling relevan dan up-to-date.
