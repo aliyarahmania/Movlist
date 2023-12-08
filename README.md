@@ -10,6 +10,8 @@ Mengubah Informasi Film: Movlist memungkinkan pengguna untuk memperbarui informa
 
 Menghapus Film: Apabila pengguna tidak lagi ingin menyimpan suatu film dalam watchlist mereka, mereka dapat dengan mudah menghapusnya. Fitur ini memberikan fleksibilitas kepada pengguna untuk selalu memiliki daftar film yang paling relevan dan up-to-date.
 
+
+
 Proyek ini dibuat untuk memenuhi tugas Pemrograman Web
 
 Aliya Rahmania - 140810210005
