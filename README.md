@@ -9,3 +9,6 @@ Menambah Film: Pengguna memiliki kemampuan untuk menambahkan film baru ke dalam 
 Mengubah Informasi Film: Movlist memungkinkan pengguna untuk memperbarui informasi film yang sudah ada dalam watchlist mereka. Mereka dapat mengubah judul, direktur, tahun rilis, genre, atau bahkan mengganti gambar sampul film.
 
 Menghapus Film: Apabila pengguna tidak lagi ingin menyimpan suatu film dalam watchlist mereka, mereka dapat dengan mudah menghapusnya. Fitur ini memberikan fleksibilitas kepada pengguna untuk selalu memiliki daftar film yang paling relevan dan up-to-date.
+
+Proyek ini dibuat untuk memenuhi tugas Pemrograman Web
+Aliya Rahmania - 140810210005
